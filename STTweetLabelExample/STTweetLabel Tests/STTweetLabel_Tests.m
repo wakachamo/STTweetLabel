@@ -281,7 +281,7 @@
 {
     NSString *string = @"This is a sample test with #hashtag-special.";
     NSArray *results = @[
-                         @{@"hotWord": @(STTweetHashtag), @"range": [NSValue valueWithRange:NSMakeRange(27, 8)]}
+                         @{@"hotWord": @(STTweetHashtag), @"range": [NSValue valueWithRange:NSMakeRange(27, 16)]}
                          ];
     
     [self initiateTestFromSample:string results:results];
