@@ -47,7 +47,7 @@
 
 //    NSLog(@"%@", hotWords);
     
-    XCTAssertEqual(results.count, hotWords.count, @"Number of hot words should be %d but %d was returned instead.", results.count, hotWords.count);
+    XCTAssertEqual(results.count, hotWords.count, @"Number of hot words should be %@ but %@ was returned instead.", @(results.count), @(hotWords.count));
     
     if (results.count == hotWords.count)
     {
